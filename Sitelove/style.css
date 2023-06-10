@@ -1,18 +1,19 @@
 @charset "UTF-8";
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-@font-face{
+@font-face {
     font-family: 'Love';
-    src: url(); ;
+    src: url();
+    ;
     font-weight: normal;
 }
 
-:root{
+:root {
     --cor0: #e909e2d3;
     --cor1: #d46bd4;
     --cor2: #d111e7cf;
@@ -20,16 +21,16 @@
 
     --cor4: #4b65fa;
     --cor5: #2280d9;
-    --fontpadrao:  Arial, Verdana, Helvetica, sans-serif;
-    --fontdestaque: 'Bebas Neue', 'cursive'; 
+    --fontpadrao: Arial, Verdana, Helvetica, sans-serif;
+    --fontdestaque: 'Bebas Neue', 'cursive';
 }
 
-body{
+body {
     font-family: var(--fontpadrao);
-    background-color: var(--cor0);
+    background-color: rgb(211, 14, 14);
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -37,48 +38,65 @@ header{
     height: 100px;
 }
 
-#logo{
+#logo {
     position: relative;
     right: 100px;
-    height: 80px; 
+    height: 80px;
     align-items: center;
 }
-#navbar > ul{
+
+#navbar>ul {
     position: relative;
     left: 100px;
     display: flex;
     position: relative;
     top: 5px;
-    gap: 40px;  
+    gap: 40px;
     font-size: 15px;
     list-style: none;
 }
-#navbar > ul > li > a{
+
+#navbar>ul>li>a {
     text-decoration: none;
     color: #000000;
 }
-#navbar > ul > li > a:hover{
+
+#navbar>ul>li>a:hover {
     color: var(--cor2);
 }
-.container{
+
+.container {
     margin: 0;
     padding: 0;
-    min-width: 400px;
-    max-width: 100%;
+    min-width: 1000px;
+    max-width: 2083px;
 }
-.conteudo{
+
+.conteudo {
+    border: #000000 solid;
+    width: 100%;
+    background-color: aliceblue;
+    height: 2000px;
+}
+
+#imagens {
+    border: #000000 solid 2px;
     margin: auto;
-    width: 1000px;
-    min-width: 400px;
-    max-width: 100%;
-}
-#imagens{
-    display: flex;
-    height: 300px;
-    min-width: 400px;
-    max-width: 100%;
+    align-items: center;
+    height: 420px;
+    width: 1020px;
 
 }
-.img{
+
+.img {
+    border: #d46bd4 solid 2px;
     height: 400px;
+}
+
+.texto {
+    padding: 40px;
+    text-align: justify;
+    position: relative;
+    top: 120px;
+    left: 100px;
 }
