@@ -251,7 +251,7 @@ header {
     }
 
     .container {
-        width: 400px;
+        width: 500px;
     }
 
     .conteudo {
@@ -268,14 +268,14 @@ header {
         left: 25px;
         align-items: center;
         height: 40px;
-        width: 100px;
+        width: 150px;
 
     }
 
     .img {
         margin: auto;
         border: #d46bd4 solid 2px;
-        height: 100px;
+        height: 150px;
     }
 
 }
