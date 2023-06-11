@@ -170,7 +170,7 @@ header {
     top: 6px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 972px) {
 
     header {
         display: flex;
@@ -194,7 +194,7 @@ header {
     }
 
     .container {
-        width: 400px;
+        width: 800px;
     }
 
     .conteudo {
@@ -218,7 +218,64 @@ header {
     .img {
         margin: auto;
         border: #d46bd4 solid 2px;
+        height: 200px;
+    }
+    #coração1 {
+        position: relative;
+        top: 200px;
+        right: 80px;
+    }
+
+}
+@media screen and (max-width: 564px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: aliceblue;
         height: 100px;
+        width: 100%;
+    }
+
+    #logo {
+        position: relative;
+        right: 100px;
+        height: 10px;
+        align-items: center;
+    }
+
+    #navbar>ul>li>a {
+        position: relative;
+        right: 100px;
+    }
+
+    .container {
+        width: 500px;
+    }
+
+    .conteudo {
+        background-color: rgba(255, 255, 255, 0.742);
+        height: 500px;
+    }
+
+    #imagens {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        position: relative;
+        top: 10px;
+        left: 25px;
+        align-items: center;
+        height: 40px;
+        width: 100px;
+
+    }
+
+    .img {
+        margin: auto;
+        border: #d46bd4 solid 2px;
+        height: 150px;
     }
 
 }
